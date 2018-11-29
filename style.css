@@ -8,7 +8,7 @@ body{
     background: #F0F1F0;
 }
 
-.logo {
+nav img {
     display: block;
     margin: 0 auto;
     max-width: 50px;
@@ -32,7 +32,6 @@ h1{
 
 h2{
     position: absolute;
-    color:
 }
 
 article {
@@ -50,9 +49,13 @@ article *:nth-child(2){
     /*tweede item in een article stylen*/
 }
 
-img {
+article img {
     width: 100%;
     width: calc(100% + 2em);
+    margin-left: -1em;
+    margin-top: -1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 
 
 }
