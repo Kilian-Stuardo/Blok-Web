@@ -33,8 +33,42 @@ h2{
     position: absolute;
 }
 
+main > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+main > form > button {
+  margin-left: .5em;
+  border: none;
+  border-radius: .5em;
+  padding: .5em .9em .5em .9em;
+}
+
+main form button:nth-child(1) {
+  background-color: orange;
+}
+
+main form button:nth-child(2) {
+  background-color: lavender;
+}
+
+main form button:nth-child(3) {
+  background-color: lightblue;
+}
+
+main form button:nth-child(4) {
+  background-color: #9DD29D;
+}
+
+
+
+
+
 article {
-    width: 20em;
+    width: 80vw;
     border: 1px solid black;
     padding: 1em;
     margin: 0 auto;
@@ -64,7 +98,10 @@ article img {
 
 }
 
+article > img:nth-last-of-type(1) {
+  width: 2em;
+}
+
 footer{
     text-align: center;
 }
-
