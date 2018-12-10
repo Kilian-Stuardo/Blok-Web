@@ -22,23 +22,24 @@
 
     <main>
         <form>
-          <button type="button" name="button">alles</button>
-          <button type="button" name="button">kort</button>
-          <button type="button" name="button">medium</button>
-          <button type="button" name="button">lang</button>
+          <button type="button" name="alles">alles</button>
+          <button type="button" name="kort">kort</button>
+          <button type="button" name="medium">medium</button>
+          <button type="button" name="lang">lang</button>
         </form>
 
 
         <section>
-            <article>
+            <article data-parent="kort">
                 <h2>Notitie</h2>
                 <img src="img/default-placeholder.png" alt="">
-
-                <img src="img/small-bookmark.svg" alt="">
-
+                <footer>
+                  <h3>Dit is een titel</h2>
+                  <img src="img/small-bookmark.svg" alt="">
+                </footer>
             </article>
 
-            <article>
+            <article data-parent="lang">
                 <h2>vrije versvorm</h2>
                 <img src="img/default-placeholder.png" alt="">
 
@@ -46,7 +47,7 @@
 
             </article>
 
-            <article>
+            <article data-parent="medium">
                 <h2>Enigzins aan de omslagtiche kant</h2>
 
                     <img src="img/default-placeholder.png" alt="">
