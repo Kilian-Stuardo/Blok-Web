@@ -9,18 +9,34 @@ body{
 }
 
 nav img {
-    display: block;
+    display: flex;
     margin: 0 auto;
     max-width: 4.375em;
     max-height: 1.75em;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
+    justify-content: center;
+
+}
+
+nav img nth-child(2){
+  display: flex;
+
+
+
 
 }
 
 nav{
-    display: block;
+    display: flex;
     background: #675C52;
+    flex-direction: row;
+    justify-content: center;
+    border: 2em;
+    border-color: yellow
+    ;
+
+
 
 }
 
